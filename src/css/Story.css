@@ -1,0 +1,33 @@
+.stories {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.story {
+    padding-left: 20%;
+}
+
+.story_img img {
+    width: 70px;
+    height: 70px;
+}
+
+.story_img_border {
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 70px;
+    border: 1px solid silver;
+}
+
+.story_img_border:hover {
+    cursor: pointer;
+}
+
+.story_title {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}

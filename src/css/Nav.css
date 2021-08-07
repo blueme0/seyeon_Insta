@@ -1,0 +1,49 @@
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navi table {
+    width: 1000px;
+    border-spacing: 0;
+}
+
+.nav_blank1 {
+    border-top: 1px solid #e5e5e5;
+}
+
+.nav_blank2 {
+    border-top: 1px solid #e5e5e5;
+    width: 100px;
+}
+
+.nav_blank3 {
+    border-top: 1px solid #e5e5e5;
+}
+
+.nav_posts {
+    padding-top: 10px;
+    width: 50px;
+    border-top: 1px solid #000000;
+}
+
+.nav_posts:hover {
+    cursor: pointer;
+}
+
+.nav_tagged {
+    padding-top: 10px;
+    width: 50px;
+    border-top: 1px solid #e5e5e5;
+    color: silver;
+}
+
+.nav_tagged:hover {
+    cursor: pointer;
+}

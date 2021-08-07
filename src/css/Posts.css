@@ -1,0 +1,53 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts table {
+    border-spacing: 30px;
+}
+
+.photo {
+    width: 310px;
+    height: 310px;
+}
+
+.photodiv {
+    position:absolute;
+}
+
+.postInfo {
+    width: 310px;
+    height:310px;
+    position:relative;
+    left: 0;
+    text-align: center;
+    line-height: 310px;
+    opacity: 0;
+    font-size: 16px;
+}
+
+.post:hover > .photodiv{
+    filter:brightness(50%);
+}
+
+.post:hover .postInfo {
+    color:#ffffff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hearts img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.replies img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.hearts {
+    padding-right: 30px;
+}

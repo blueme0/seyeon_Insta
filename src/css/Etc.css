@@ -1,0 +1,19 @@
+.etc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+    color: silver;
+    padding-top: 50px;
+    padding-bottom: 100px
+}
+
+.etc div {
+    padding-bottom: 20px;
+}
+.etc span {
+    padding: 0 10px;
+}

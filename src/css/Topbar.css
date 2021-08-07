@@ -1,0 +1,47 @@
+.topbar_logo img {
+    width : 100px;
+}
+
+.topbar img:hover {
+    cursor: pointer;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+
+.topbar_search {
+    margin: 0 200px;
+    padding: 10px;
+    width: 250px;
+    height: 15px;
+    background-color : #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+}
+
+.topbar_search img {
+    width : 16px;
+    height : 16px;
+    opacity: 0.3;
+    padding-left: 80px;
+}
+
+.topbar_search span {
+    opacity : 0.5;
+    position: relative;
+    bottom: 3px;
+    left: 20px;
+}
+
+.topbar_icon img {
+    width : 25px;
+    height : 25px;
+    padding: 0 10px;
+}
